@@ -1,0 +1,24 @@
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin heading {
+    color: $dark-blue;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+@mixin subheading {
+    color: $grey;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+@mixin hover {
+    color: $white;
+    background-color: $blue;
+    transform: translateY(-2px);
+}

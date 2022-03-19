@@ -1,0 +1,14 @@
+{
+    "name": "solark-solar-project",
+    "version": "1.0.0",
+    "description": "Solark Project",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/styles.css"
+    },
+    "author": "Mohit Saini",
+    "license": "MIT",
+    "dependencies": {
+        "node-sass": "^7.0.1"
+    }
+}

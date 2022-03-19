@@ -1,0 +1,20 @@
+.header {
+    position: relative;
+    background: url(../images/solar-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body.show {
+    overflow-y: hidden;
+}
+
+.hero_section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

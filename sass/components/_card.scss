@@ -1,0 +1,36 @@
+.sol_card {
+    margin: 6rem 0;
+
+    &_graphic img {
+        border-radius: 1rem;
+    }
+
+    &_info {
+        padding: 3rem 0;
+    }
+
+    &_title {
+        @include flex(flex-start, center);
+        gap: 2rem;
+    }
+}
+
+.stats {
+    &_card {
+        margin: 3rem 0;
+        text-align: center;
+    }
+
+    &_number {
+        font-size: 5rem;
+        color: $blue;
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+    }
+
+    &_description {
+        font-size: 2.3rem;
+        font-weight: 500;
+        color: $dark-blue;
+    }
+}

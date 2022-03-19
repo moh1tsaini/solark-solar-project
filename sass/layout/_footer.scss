@@ -1,0 +1,18 @@
+.footer_section {
+    padding: 8rem 3rem 3rem 3rem;
+}
+
+.socials {
+    @include flex(flex-start, center);
+    gap: 3rem;
+
+    cursor: pointer;
+    font-size: 2.6rem;
+    color: $dark-blue;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.link_container {
+    margin: 2rem 0;
+}

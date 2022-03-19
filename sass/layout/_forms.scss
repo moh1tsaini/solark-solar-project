@@ -1,0 +1,42 @@
+.contact_section {
+    padding: 4rem 0;
+    background: url(../images/solar-panels-orange-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 0.6rem;
+    padding: 4rem 2rem;
+    background-color: $white;
+}
+
+.input {
+    margin: 2rem 0;
+}
+
+.input label {
+    display: block;
+    color: $dark-blue;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.input input {
+    width: 100%;
+    font-size: 2rem;
+    font-family: inherit;
+    color: $dark-blue;
+    padding: 1rem 0;
+    border: 0;
+    border-bottom: 1px solid $grey;
+}
+
+.input input:focus {
+    outline: none;
+}
